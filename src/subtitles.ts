@@ -1,0 +1,15 @@
+export const subtitles = [
+  {
+    src: "https://files.vidstack.io/sprite-fight/subs/english.vtt",
+    label: "English",
+    language: "en-US",
+    kind: "subtitles",
+    default: true,
+  },
+  {
+    src: "https://files.vidstack.io/sprite-fight/subs/spanish.vtt",
+    label: "Spanish",
+    language: "es-ES",
+    kind: "subtitles",
+  },
+] as const;
