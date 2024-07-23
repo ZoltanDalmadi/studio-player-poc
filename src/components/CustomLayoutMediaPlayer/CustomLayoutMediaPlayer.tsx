@@ -2,7 +2,7 @@ import { Captions, MediaPlayer, MediaProvider, Track } from "@vidstack/react";
 import CustomLayout from "./components/CustomLayout";
 
 import SimpleOverlay from "./components/SimpleOverlay";
-import { subtitles } from "../../subtitles";
+import { subtitles } from "./subtitles";
 import DataContext from "./context";
 
 import "./style.css";
